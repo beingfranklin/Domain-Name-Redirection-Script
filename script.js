@@ -13,7 +13,7 @@ window.location.search   // ?filter=a
 window.location.href.split('/').pop(); // for the last part
 */
 
-var replacer= window.location.href.split('/').pop(); // To append the last part
+var replacer= window.location.href.split('/').pop(); // To append the last part.
 var a = document.querySelector('a[href="https://somedomain.com"]');
 if (a) {
   a.setAttribute('href', 'https://domain.com'+replacer)
